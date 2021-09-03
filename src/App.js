@@ -1,17 +1,14 @@
 import './assets/css/style.css';
 import './assets/css/header.css';
 import './assets/css/login.css';
+import './assets/css/responsive.css';
 
-import Header from './shared/components/header';
+import Home from './containers/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          <Header />
-        </p>
-      </header>
+      <Home />
     </div>
   );
 }
