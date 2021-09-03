@@ -1,0 +1,322 @@
+.user_profile_from, .user_wallet{
+    width: 40%;
+    min-height: 450px;
+    margin: 2% auto 0;
+    background-color: #f8f8f8;
+    padding: 20px 70px 30px;
+}
+
+/*MY PROFILE PAGE CSS*/
+.sec_paddings{
+  padding: 30px 0px 0px;
+}
+.sec_paddings .inner-box{
+	margin: auto;
+}
+.page_head h4{
+	color: #1B2143;
+	font-size: 16px;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-weight: 800;
+}
+.user_profile_from form  .user_pro_fields{
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.user_profile_from form  .user_pro_fields input{
+	border: 2px solid #963CBD;
+	border-radius: 10px;
+	color: #1B2143;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	padding: 10px 15px;
+	width: 100%;
+}
+.user_profile_from form  .user_pro_fields i{
+	color: #963CBD;
+    font-size: 18px;
+    top: 15px;
+    position: absolute;
+    right: 15px;
+}
+.user_profile_from button{
+	width: 100%;
+	height: 43px;
+	color: #1B2143;
+	font-size: 14px;
+	background-color: #F8B426;
+	border-radius: 8px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	border: 1px solid #F8B426;
+	padding: 10px 15px;
+	margin: 0px auto;
+	display: block;
+	margin-top: 40px;
+	cursor: pointer;
+	position: relative;
+}
+
+
+/*MY CAR PAGE CSS*/
+.my_car_box .back-to-home{
+    width: 65%;
+    color: #1B2143;
+    font-size: 14px;
+    background-color: #F8B426;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    border: 1px solid #F8B426;
+    padding: 12px 15px;
+    margin: 5% auto 0%;
+    display: block;
+    cursor: pointer;
+	position: relative;
+}
+
+.my_car_box .my_car_inner_items .select-inner-box{
+    left: 25%;
+    top: 23%;
+}
+
+.my_car_box .my_car_inner_items .select-car{
+	width: 65% !important;
+}
+.my_car_box{
+	margin: 3% auto 20px;
+	background-color: #f8f8f8;
+    padding: 40px 80px 50px;
+	text-align: center;
+}
+.my_car_inner_items select{
+  border: 2px solid #963CBD;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 400px;
+  padding: 10px 15px;
+  color: #1B2143;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.my_car_inner_box{
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 2px #2426721c;
+    margin: 5px 5px;
+}
+.my_car_inner_box img{
+    width: 100px;
+	margin: 0px auto;
+    padding-top: 0px;
+	display: block;
+}
+.my_car_inner_box h6{
+    color: #963CBD;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.my_car_inner_box h5{
+    color: #1B2143;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+
+.my_car_inner_box .edit_btn button{
+    color: #963cbd !important;
+}
+
+.my_car_inner_box button{
+    border: 2px solid #963CBD;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 100px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+.my_car_inner_box button:hover{
+	color: white !important;
+	background-color: #963CBD !important;
+}
+
+.remove_btn button{
+  border: 2px solid #D91A1A;
+  color: #D91A1A;
+  cursor: pointer;
+}
+.remove_btn button:hover{
+	color: white !important;
+	background-color: #d91a1ad1 !important;
+}
+
+#my-cars .owl-nav {
+  display: block;
+}
+
+#my-cars .owl-nav button {
+  background-color: #963cbd;
+  box-shadow: 11px 0px 16px #00000029;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 40px;
+  width: 40px;
+  padding-bottom: 10px !important;
+  cursor: pointer;
+}
+
+#my-cars .owl-nav button:focus {
+  outline: none;
+}
+
+#my-cars .owl-nav .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: -60px;
+}
+
+#my-cars .owl-nav .owl-next {
+  position: absolute;
+  top: 30%;
+  right: -60px;
+  box-shadow: -11px 0px 16px #00000029 !important;
+}
+.back_btn{
+  margin-top: 50px;
+}
+.back_btn a {
+    width: 65%;
+    color: #1B2143;
+    font-size: 14px;
+    background-color: #F8B426;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    border: 1px solid #F8B426;
+    padding: 10px 15px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 50px;
+	position: relative;
+}
+
+/* My Wallet Page */
+.user_wallet .back-to-home{
+    width: 27%;
+    color: #1B2143;
+    font-size: 14px;
+    background-color: #F8B426;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    border: 1px solid #F8B426;
+    padding: 10px 15px;
+    margin: 0px auto;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+}
+
+.user_wallet .back-to-home:before,.user_wallet  .back-to-home::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+.user_wallet .back-to-home::after {
+    top: -6px;
+    left: -6px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.user_wallet .back-to-home::before {
+    bottom: -6px;
+    right: -6px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.user_wallet .back-to-home:hover::after, .user_wallet .back-to-home:hover::before
+{
+    width: calc(100% + 10px);
+    height: calc(100% + 12px);
+    border-color: #f8b426;
+    border-radius: 10px;
+}
+
+.user_wallet .last-updated{
+	font-size: 12px;
+	font-weight: 400;
+	padding: 5px;
+	margin:0;
+}
+.user_wallet .credits{
+	background: white;
+    border: 1px solid #963cbd;
+    padding: 7px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.user_wallet hr{
+    border: 1px solid #963cbd;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.credits .amount{
+    color: #963CBD;
+}
+
+.credits .wallet-img{
+    width: 25px;
+}
+
+.body-mob-bar{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.transaction-history {
+    max-height: 250px;
+    overflow: auto;
+    padding-right: 10px;
+    margin-bottom: 25% !important;
+}
+.transaction-history::-webkit-scrollbar, .body-mob-bar::-webkit-scrollbar {
+    width: 3px;
+}
+
+.transaction-history::-webkit-scrollbar-track, .body-mob-bar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.transaction-history::-webkit-scrollbar-thumb, .body-mob-bar::-webkit-scrollbar-thumb {
+    background-color: #963cbd;
+}
+.transactions{
+	padding: 5px 15px;
+    border-top: 1px solid #c1c1c180;
+    font-size: 12px;
+}
+.credit-text{
+	font-size: 12px;
+    font-weight: 800;
+    padding: 5px;
+}
