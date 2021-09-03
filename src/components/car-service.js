@@ -58,23 +58,6 @@ const CarService = () => (
                 </div>
             </div>
         </div>
-        <div class="container-fluid sec_padding service_sec first pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="text-center sec_head wow fadeInDown">
-                            Select Categories
-                        </h3>
-                        <p class="text-center sec_sub_head">
-                            Please select a category to get the packages.
-                        </p>
-                        <div class="border_btm"></div>
-                    </div>
-                </div>
-                <div class="row ml-0" id="home-service-list">
-                </div>
-            </div>
-        </div>
     </Fragment>
 )
 
