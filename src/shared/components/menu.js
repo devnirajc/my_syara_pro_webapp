@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import headerLogo from './../../assets/img/LogoMysyaraTEXTwhite.png';
+import headerLogo from './../../assets/img/logo-text-light.0fc643efc918.png';
 
 const Menu = () => (
     <Fragment>

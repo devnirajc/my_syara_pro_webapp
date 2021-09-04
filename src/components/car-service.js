@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import carServiceImage from './../assets/img/car-services.png';
+import carServiceImage from './../assets/img/header-banner.svg';
 
 const CarService = () => (
     <Fragment>
