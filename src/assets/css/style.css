@@ -87,7 +87,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 .my_car_box .back-to-home:hover::before, .my_car_box .back-to-home:hover::after, .user_profile_from form button:hover::before, .user_profile_from form button:hover::after, .modal-body form button.confirm_otp_effect:hover::before, .modal-body form button.confirm_otp_effect:hover::after, .modal-body form button.effect:hover::after, .modal-body form button.effect:hover::before, .modal-body form button.registration-submit:hover::before, .modal-body form button.registration-submit:hover::after, .check-service:hover::after, .check-service:hover::before, .back_btn a:hover::after, .back_btn a:hover::before, .btn-sets-noyes .btn-no:hover::after, .btn-sets-noyes .btn-no:hover::before, .btn-yellow:hover::after, .btn-yellow:hover::before, .btn-sets-yesno .btn-yes:hover::after, .btn-sets-yesno .btn-yes:hover::before, .btn-yellow:hover::after, .btn-yellow:hover::before, .account-boxes .btn-cont:hover::after, .account-boxes .btn-cont:hover::before, .btn-backhome:hover::after, .btn-backhome:hover::before, .talk-btn-dark:hover::after, .talk-btn-dark:hover::before {
   width: calc(100% + 10px);
   height: calc(100% + 10px);
-  border-color: #f8b426;
+  border-color: #1C1C1C;
   border-radius: 10px;
 }
 
@@ -235,7 +235,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 /* HOME Page */
 
 .select-car {
-  border: 2px solid #963cbd;
+  border: 2px solid #A4A8BF;
   font-weight: 800;
   padding: 13px 16px;
   border-radius: 8px;
@@ -248,7 +248,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 
 .select-car .fa-caret-down {
   float: right;
-  color: #963cbd;
+  color: #A4A8BF;
   font-weight: 800;
 }
 
@@ -274,8 +274,8 @@ button.check-service {
   border: none;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #f8b426;
-  color: #1b2143;
+  background-color: #1C1C1C;
+  color: #ffffff;
   font-weight: bold;
   padding: 10px 50px;
   /* text-decoration: none; */
@@ -1192,7 +1192,7 @@ footer .col-6 {
 }
 
 .check-service:hover {
-  color: #222222;
+  color: #ffffff;
 }
 
 /* Service Page */
