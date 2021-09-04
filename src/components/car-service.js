@@ -41,7 +41,7 @@ const CarService = () => (
                             <i className="fa fa-caret-down p-1" aria-hidden="true"></i>
                         </button>
                     </div>
-                    <button className="check-service mt-5 z-1">Explore Packages</button>
+                    <button className="check-service mt-4 z-1">Explore Packages</button>
                 </div>
                 <div className="col-5 col-sm-5 col-md-6 col-lg-6 right_img wow fadeInRight ">
                     <img src={carServiceImage} />
