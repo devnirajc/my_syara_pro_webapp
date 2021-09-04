@@ -12,7 +12,6 @@
 	    flex: 50%;
 	}
 	.right_img img {
-		width: 60%;
 		margin: 0px auto;
 		display: block;
 	}
@@ -2814,7 +2813,7 @@
 	}
 	button.check-service {
 		width: 185%;
-		border: 2px solid #f8b426;
+		border: 2px solid #1C1C1C;
 		padding: 8px 16px;
 		font-size: 12px;
 	}

@@ -87,7 +87,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 .my_car_box .back-to-home:hover::before, .my_car_box .back-to-home:hover::after, .user_profile_from form button:hover::before, .user_profile_from form button:hover::after, .modal-body form button.confirm_otp_effect:hover::before, .modal-body form button.confirm_otp_effect:hover::after, .modal-body form button.effect:hover::after, .modal-body form button.effect:hover::before, .modal-body form button.registration-submit:hover::before, .modal-body form button.registration-submit:hover::after, .check-service:hover::after, .check-service:hover::before, .back_btn a:hover::after, .back_btn a:hover::before, .btn-sets-noyes .btn-no:hover::after, .btn-sets-noyes .btn-no:hover::before, .btn-yellow:hover::after, .btn-yellow:hover::before, .btn-sets-yesno .btn-yes:hover::after, .btn-sets-yesno .btn-yes:hover::before, .btn-yellow:hover::after, .btn-yellow:hover::before, .account-boxes .btn-cont:hover::after, .account-boxes .btn-cont:hover::before, .btn-backhome:hover::after, .btn-backhome:hover::before, .talk-btn-dark:hover::after, .talk-btn-dark:hover::before {
   width: calc(100% + 10px);
   height: calc(100% + 10px);
-  border-color: #f8b426;
+  border-color: #1C1C1C;
   border-radius: 10px;
 }
 
@@ -235,9 +235,9 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 /* HOME Page */
 
 .select-car {
-  border: 2px solid #963cbd;
+  border: 2px solid #A4A8BF;
   font-weight: 800;
-  padding: 13px 16px;
+  padding: 8px 16px;
   border-radius: 8px;
   width: 17em;
   color: #1b2143;
@@ -248,7 +248,7 @@ input, input:before, input:after, textarea, textarea:before, textarea:after {
 
 .select-car .fa-caret-down {
   float: right;
-  color: #963cbd;
+  color: #A4A8BF;
   font-weight: 800;
 }
 
@@ -274,8 +274,8 @@ button.check-service {
   border: none;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #f8b426;
-  color: #1b2143;
+  background-color: #1C1C1C;
+  color: #ffffff;
   font-weight: bold;
   padding: 10px 50px;
   /* text-decoration: none; */
@@ -303,9 +303,9 @@ button.check-service {
 }
 
 .wide-range-item {
-  width: 175px;
-  height: 200px;
-  margin: 0px 19px 30px;
+  width: 225px;
+  height: 225px;
+  margin: 0px 40px 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 16px 5px #2426721c;
   padding: 10px;
@@ -313,7 +313,7 @@ button.check-service {
 }
 
 .happy-customer {
-  width: 300px;
+  width: 435px;
   height: 200px;
   margin: 0px 19px 30px;
   border-radius: 10px;
@@ -400,7 +400,7 @@ a:hover {
 .border_btm {
   width: 150px;
   color: #963cbd;
-  border-top: 1px solid;
+  border-top: 2px solid;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -428,8 +428,8 @@ a:hover {
 }
 
 .wide_range_inner_item img {
-  height: 80px;
-  width: 80px;
+  height: 145px;
+  width: 145px;
 }
 
 .wide_range_inner_value {
@@ -1192,7 +1192,7 @@ footer .col-6 {
 }
 
 .check-service:hover {
-  color: #222222;
+  color: #ffffff;
 }
 
 /* Service Page */
@@ -3178,4 +3178,52 @@ li.total-bar span:last-child {
 
 .center-align {
   justify-content: center;
+}
+
+.card-border {
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 5px #2426721c;
+}
+
+.basic-card-bg-image {
+  background: url('../img/Mask-Group-12.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 105px;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.gold-card-bg-image {
+  background: url('../img/Mask-Group-13.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 105px;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.platinum-card-bg-image {
+  background: url('../img/Mask-Group-14.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 105px;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.pro-icon {
+  width: 100%;
+}
+
+.save-text {
+  position: absolute;
+  bottom: -35px;
+  font-size: 1.3rem;
+  width: fit-content;
+  left: 0;
+  right: 0;
 }
