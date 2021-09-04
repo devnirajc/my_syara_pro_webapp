@@ -35,13 +35,13 @@ const CarService = () => (
                             <div className="no-result hidden text-center">No Result Found!</div>
                         </div>
                     </div>
-                    <div>
+                    <div className="left_sel_box">
                         <button className="select-car select-car-home mt-4">
                             Select Your Car
                             <i className="fa fa-caret-down p-1" aria-hidden="true"></i>
                         </button>
                     </div>
-                    <button className="check-service mt-3 z-1">Explore Packages</button>
+                    <button className="check-service mt-5 z-1">Explore Packages</button>
                 </div>
                 <div className="col-5 col-sm-5 col-md-6 col-lg-6 right_img wow fadeInRight ">
                     <img src={carServiceImage} />

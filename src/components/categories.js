@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import CarServiceImg from './../assets/img/car-service.png';
+import comboImg from './../assets/img/doorstep-mechanic.png';
 
 const Categories = () => (
     <div class="container-fluid sec_padding service_sec first pb-5">
@@ -17,19 +19,19 @@ const Categories = () => (
             <div class="row ml-0 center-align" id="home-service-list">
                 <div class="wide-range-item wow zoomIn" data-id="detailing-in">
                     <div class="wide_range_inner_item">
-                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/car-detailing_hiX75SA.png" />
+                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/doorstep-car-wash-new.png" />
                         <h4 className="pt-4">Car Wash</h4>
                     </div>
                 </div>
                 <div class="wide-range-item" data-id="car-wash-in">
                     <div class="wide_range_inner_item">
-                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/doorstep-car-wash-new.png" />
+                        <img src={CarServiceImg} />
                         <h4 className="pt-4">Car Service</h4>
                     </div>
                 </div>
                 <div class="wide-range-item" data-id="car-wash-in">
                     <div class="wide_range_inner_item">
-                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/doorstep-car-wash-new.png" />
+                        <img src={comboImg} />
                         <h4 className="pt-4">Combo</h4>
                     </div>
                 </div>
