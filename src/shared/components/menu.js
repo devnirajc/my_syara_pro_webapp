@@ -1,8 +1,15 @@
 import React, { Fragment } from 'react';
+import { Link, withRouter } from 'react-router-dom';
 import headerLogo from './../../assets/img/logo-text-light.0fc643efc918.png';
 import proLogo from './../../assets/img/pro.png';
 
-const Menu = () => (
+const currentTab = (history, path) => {
+    if (history) {
+        return history?.location?.pathname === path ? 'nav-link active' : 'nav-link';
+    }
+}
+
+const Menu = ({ history }) => (
     <Fragment>
         <nav className="navbar sticky-top navbar-expand-md container-fluid header-menu mobile hidden">
             <button type="button" className="navbar-toggler float-left" data-toggle="collapse" data-target="#navbarCollapse">
@@ -50,7 +57,7 @@ const Menu = () => (
                 <div id="header-fix" className="header">
                     <nav className="navbar navbar-expand-md navbar-light p-0">
                         <div className="logo">
-                            <a className="navbar-brand mr-0" href="index.html"><img src={headerLogo} className="img-fluid w-75" /><img src={proLogo} style={{width: "45px"}} /></a>
+                            <a className="navbar-brand mr-0" href="index.html"><img src={headerLogo} className="img-fluid w-75" /><img src={proLogo} style={{ width: "45px" }} /></a>
                         </div>
                         <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
                             <span className="navbar-toggler-icon"></span>
@@ -59,8 +66,18 @@ const Menu = () => (
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto nav">
-                                <li className="nav-item"><a className="nav-link index active">Home</a></li>
-                                <li className="nav-item"><a className="nav-link subscription">Subscriptions</a></li>
+                                <li className="nav-item">
+                                    <Link className={currentTab(history, '/')} to='/'>
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        className={currentTab(history, '/subscription')}
+                                        to='/subscription'>
+                                        Subscriptions
+                                    </Link>
+                                </li>
                             </ul>
                             <div className="user" id="user">
                                 <a href="javascript:void(0)" className="login" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false"> <i className="fa fa-sign-in p-1" aria-hidden="true"></i> Login </a>
@@ -86,4 +103,4 @@ const Menu = () => (
     </Fragment>
 )
 
-export default Menu
+export default withRouter(Menu)
