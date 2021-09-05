@@ -1282,7 +1282,7 @@
 	/*newadd-10 june end*/
 	.user_profile_from,
 	.user_wallet {
-		width: 70 !important%;
+		width: 70 !important;
 		padding: 20px 20px 30px !important;
 	}
 	.content_box {
@@ -2047,6 +2047,7 @@
 		border-radius: 10px;
 		padding: 21px 23px 12px !important;
 		margin-bottom: 15px;
+		margin-top: 20px;
 	}
 	.table-details-pay .table td b {
 		font-size: 14px;
@@ -2969,6 +2970,9 @@
 	.item_box_con ul li p {
 		display: none;
 	}
+	.item_box_package_details ul li p {
+		display: none;
+	}
 	.cus_item_box {
 		border-bottom: 0px;
 		background-color: #fff;
@@ -2976,8 +2980,9 @@
 		padding: 15px;
 		border-radius: 20px;
 		float: left;
-		width: 48%;
-		margin-right: 10px;
+		width: 100%;
+		margin: 20px 0px;
+		margin-bottom: 0px;
 	}
 	.item_box_img img {
 		width: 60%;
@@ -2993,6 +2998,14 @@
 	}
 	.item_box_con ul li h2 {
 		font-size: 12px;
+		padding-top: 10px;
+		margin: 0;
+	} 
+	.item_box_package_details ul li {
+		font-size: 14px;
+	  }
+	.item_box_package_details ul li h2 {
+		font-size: 1.3em;
 		padding-top: 10px;
 		margin: 0;
 	}
@@ -3031,11 +3044,17 @@
 	}
 	.item_box_con {
 		width: auto;
+	} 
+	.item_box_package_details {
+		width: auto;
 	}
 	.cus_item_box_m {
 		margin-right: 0px;
 	}
 	.item_box_con ul {
+		margin-bottom: 0px;
+	} 
+	.item_box_package_details ul {
 		margin-bottom: 0px;
 	}
 	.why_choose_box {
@@ -3590,4 +3609,52 @@
 	.referal-text {
 		max-width: 90%;
 	}
+	.item_box_package_details{
+		float: left;
+		width: 100%;
+	}
+	.discount-container {
+		border-radius: 10px;
+		box-shadow: 0px 0px 16px 5px #2426721c;
+		padding: 10px;
+		background-color: #fff;
+	  }
+	  
+	  .discount-container p{
+		font-size: 0.75em;
+	  }
+	  
+	  .discount-box{
+		background-image: url('../img/Group6347.png');
+		background-size: 15.9em;
+		height: 5.0em;
+		margin: 0.5em;
+	  }
+	  
+	  .discount-box p{
+		font-size: 2.2em;
+		color: #F8B42A;
+		font-family: 'ProximaNova-Bold';
+		font-weight: bold;
+		letter-spacing: 0;
+		text-align: center;
+		top: 10%;
+		position: relative;
+		margin-bottom: 0;	
+	  }
+	  
+	  .discount-box span{
+		color: #fff;
+		font-weight: bold;
+		right: 2em;
+		position: relative;
+		float: right;
+		font-size: 0.85em;
+	  }
+	  
+	  .discount-text-align{
+		margin-left: 0em;
+		margin-top: 1em;
+	  }
+	  
 }
