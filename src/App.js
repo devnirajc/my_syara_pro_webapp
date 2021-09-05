@@ -4,11 +4,13 @@ import './assets/css/login.css';
 import './assets/css/responsive.css';
 
 import Home from './containers/home';
+import Subscription from './containers/subscription';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Home/>
+      <Subscription />
     </div>
   );
 }
