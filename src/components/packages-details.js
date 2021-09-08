@@ -46,35 +46,35 @@ const PackagesDetails = () => (
                                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight">
                                     <h2>What’s Included</h2>
                                     <ul class="pl-0 check-icon">
-                                       <li class='pt-1'><img src={CheckImg} class="w-15 pr-2" />04 Exterior Wash</li>
-                                       <li><img src={CheckImg} class="w-15 pr-2" />Swirl Mark Protection</li>
-                                       <li><img src={CheckImg} class="w-15 pr-2" />10% Savings on Top</li>
-                                       <li><img src={CheckImg} class="w-15 pr-2" />Save Over 600 Litres of Water</li>
-                                       <li><img src={CheckImg} class="w-15 pr-2" />Eco-friendly & Paint Protection</li>
+                                       <li class='pt-1'><img src={CheckImg} class="w-15 pr-2" alt="check" />04 Exterior Wash</li>
+                                       <li><img src={CheckImg} class="w-15 pr-2" alt="check" />Swirl Mark Protection</li>
+                                       <li><img src={CheckImg} class="w-15 pr-2" alt="check" />10% Savings on Top</li>
+                                       <li><img src={CheckImg} class="w-15 pr-2" alt="check" />Save Over 600 Litres of Water</li>
+                                       <li><img src={CheckImg} class="w-15 pr-2" alt="check" />Eco-friendly & Paint Protection</li>
                                     </ul>
-                                       </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight">
+                                 </div>
+                                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight">
                                     <h2>What’s Excluded</h2>
                                     <ul class="pl-0 check-icon">
-                                       <li class='pt-1'><img src={CrossImg} class="w-15 pr-2"  />04 Exterior Wash</li>
-                                       <li><img src={CrossImg} class="w-15 pr-2"  />Swirl Mark Protection</li>
-                                       <li><img src={CrossImg} class="w-15 pr-2"  />10% Savings on Top</li>
-                                       <li><img src={CrossImg} class="w-15 pr-2"  />Save Over 600 Litres of Water</li>
-                                       <li><img src={CrossImg} class="w-15 pr-2"  />Eco-friendly & Paint Protection</li>
+                                       <li class='pt-1'><img src={CrossImg} class="w-15 pr-2" alt="cross icon"/>04 Exterior Wash</li>
+                                       <li><img src={CrossImg} class="w-15 pr-2" alt="cross icon" />Swirl Mark Protection</li>
+                                       <li><img src={CrossImg} class="w-15 pr-2" alt="cross icon" />10% Savings on Top</li>
+                                       <li><img src={CrossImg} class="w-15 pr-2" alt="cross icon" />Save Over 600 Litres of Water</li>
+                                       <li><img src={CrossImg} class="w-15 pr-2" alt="cross icon" />Eco-friendly & Paint Protection</li>
                                     </ul>
-                                    </div>
-                                     </div>
-                                   
-                                 </li>
-                              </ul>
-                           </div>
-                           <div class="clearfix"></div>
-                        </div>
-                        </div>
+                                 </div>
+                              </div>
+
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="clearfix"></div>
                   </div>
                </div>
             </div>
          </div>
+      </div>
+   </div>
 )
 
 export default PackagesDetails

@@ -16,7 +16,7 @@ const Menu = ({ history }) => (
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="navbar-brand float-left">
-                <a href="index.html"><img src={headerLogo} className="w-75" /></a>
+                <a href="index.html"><img src={headerLogo} className="w-75" alt="header logo"/></a>
             </div>
             <div className="country_box float-left">
                 <div className="country_sel_box"><span className="selected-city"></span> <i className="fa fa-caret-down" aria-hidden="true"></i></div>
@@ -25,7 +25,7 @@ const Menu = ({ history }) => (
                 </div>
             </div>
             <div className="user float-left" id="user-mobile">
-                <a href="javascript:void(0)" className="login" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false"> <i className="fa fa-sign-in p-1" aria-hidden="true"></i> </a>
+                <a href="###" className="login" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false"> <i className="fa fa-sign-in p-1" aria-hidden="true"></i> </a>
                 <div className="logout" style={{ display: "none" }}>
                     <i className="fa fa-user p-1" aria-hidden="true"></i>
                     <i className="fa fa-caret-down p-1" aria-hidden="true"></i>
@@ -35,7 +35,7 @@ const Menu = ({ history }) => (
                         <a href="my-cars.html" className="my-cars"> <div className="user-sub-menu">My Cars </div></a>
                         <a href="my-orders.html" className="my-order"> <div className="user-sub-menu">My Orders </div></a>
                         <a href="referall.html" className="referal"> <div className="user-sub-menu">Refer a Friend </div></a>
-                        <a href="javascript:void(0);" onclick="logout();"> <div className="user-sub-menu" style={{ border: "none" }}>Logout </div></a>
+                        <a href="###" onclick="logout();"> <div className="user-sub-menu" style={{ border: "none" }}>Logout </div></a>
                     </div>
                 </div>
             </div>
@@ -44,10 +44,10 @@ const Menu = ({ history }) => (
                     <div className="">
                         <a href="index.html" className="index" style={{ color: "black" }}> <div className="user-sub-menu index active"> Home </div></a>
                         <a href="services.html" className="services" style={{ color: "black" }}><div className="user-sub-menu ">Services</div></a>
-                        <a href="javascript:void(0);" className="about" style={{ color: "black" }}><div className="user-sub-menu ">About</div></a>
-                        <a href="javascript:void(0);" className="blog" style={{ color: "black" }}><div className="user-sub-menu "> Blog </div></a>
-                        <a href="javascript:void(0);" className="contact" style={{ color: "black" }}><div className="user-sub-menu "> Contact </div></a>
-                        <a href="javascript:void(0);" className="social-media" style={{ color: "black" }}> <div className="user-sub-menu  last-menu">Mobile App</div></a>
+                        <a href="###" className="about" style={{ color: "black" }}><div className="user-sub-menu ">About</div></a>
+                        <a href="###" className="blog" style={{ color: "black" }}><div className="user-sub-menu "> Blog </div></a>
+                        <a href="###" className="contact" style={{ color: "black" }}><div className="user-sub-menu "> Contact </div></a>
+                        <a href="###" className="social-media" style={{ color: "black" }}> <div className="user-sub-menu  last-menu">Mobile App</div></a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Menu = ({ history }) => (
                 <div id="header-fix" className="header">
                     <nav className="navbar navbar-expand-md navbar-light p-0">
                         <div className="logo">
-                            <a className="navbar-brand mr-0" href="index.html"><img src={headerLogo} className="img-fluid w-75" /><img src={proLogo} style={{ width: "45px" }} /></a>
+                            <a className="navbar-brand mr-0" href="index.html"><img src={headerLogo} className="img-fluid w-75" alt="header logo"/><img src={proLogo} style={{ width: "45px" }} alt="header logo"/></a>
                         </div>
                         <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
                             <span className="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@ const Menu = ({ history }) => (
                                 </li>
                             </ul>
                             <div className="user" id="user">
-                                <a href="javascript:void(0)" className="login" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false"> <i className="fa fa-sign-in p-1" aria-hidden="true"></i> Login </a>
+                                <a href="###" className="login" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false"> <i className="fa fa-sign-in p-1" aria-hidden="true"></i> Login </a>
                                 <div className="logout" style={{ display: "none" }}>
                                     <i className="fa fa-user p-1" aria-hidden="true"></i>
                                     Hello <span id="username"></span>

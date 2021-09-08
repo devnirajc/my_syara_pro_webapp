@@ -19,19 +19,19 @@ const Categories = () => (
             <div class="row ml-0 center-align" id="home-service-list">
                 <div class="wide-range-item wow zoomIn" data-id="detailing-in">
                     <div class="wide_range_inner_item">
-                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/doorstep-car-wash-new.png" />
+                        <img src="https://d3tel2th2e9f0m.cloudfront.net/media/service-category/doorstep-car-wash-new.png" alt="cash wash"/>
                         <h4 className="pt-4">Car Wash</h4>
                     </div>
                 </div>
                 <div class="wide-range-item" data-id="car-wash-in">
                     <div class="wide_range_inner_item">
-                        <img src={CarServiceImg} />
+                        <img src={CarServiceImg} alt="car service"/>
                         <h4 className="pt-4">Car Service</h4>
                     </div>
                 </div>
                 <div class="wide-range-item" data-id="car-wash-in">
                     <div class="wide_range_inner_item">
-                        <img src={comboImg} />
+                        <img src={comboImg} alt="combo"/>
                         <h4 className="pt-4">Combo</h4>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import basePackageImage from './../assets/img/Mask-Group-12.png';
 import proIcon from './../assets/img/pro2x.png';
 
 const Packages = () => (
@@ -25,7 +24,7 @@ const Packages = () => (
                                     <h5 className="px-4 pt-4">Basic</h5>
                                     <h2 className="px-4">AED 200</h2>
                                 </div>
-                                <div className="col-4"><img className="pro-icon" src={proIcon} /></div>
+                                <div className="col-4"><img className="pro-icon" src={proIcon} alt="pro icon"/></div>
                             </div>
                             <p className="badge badge-dark px-4 p-2 mx-auto save-text">18% Savings</p>
                         </div>
@@ -44,7 +43,7 @@ const Packages = () => (
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Monthly</button>
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Yearly</button>
                         </div>
-                        <a href="#" class="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
+                        <a href="###" className="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
                     </div>
                 </div>
                 <div className="card col-lg-4 col-sm-12">
@@ -55,7 +54,7 @@ const Packages = () => (
                                     <h5 className="px-4 pt-4">Gold</h5>
                                     <h2 className="px-4">AED 250</h2>
                                 </div>
-                                <div className="col-4"><img className="pro-icon" src={proIcon} /></div>
+                                <div className="col-4"><img className="pro-icon" src={proIcon} alt="pro icon" /></div>
                             </div>
                             <p className="badge badge-dark px-4 p-2 mx-auto save-text">24% Savings</p>
                         </div>
@@ -74,7 +73,7 @@ const Packages = () => (
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Monthly</button>
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Yearly</button>
                         </div>
-                        <a href="#" class="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
+                        <a href="###" class="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
                     </div>
                 </div>
                 <div className="card col-lg-4 col-sm-12">
@@ -85,7 +84,7 @@ const Packages = () => (
                                     <h5 className="px-4 pt-4">Platinum</h5>
                                     <h2 className="px-4">AED 350</h2>
                                 </div>
-                                <div className="col-4"><img className="pro-icon" src={proIcon} /></div>
+                                <div className="col-4"><img className="pro-icon" src={proIcon} alt="pro icon"/></div>
                             </div>
                             <p className="badge badge-dark px-4 p-2 mx-auto save-text">33% Savings</p>
                         </div>
@@ -104,7 +103,7 @@ const Packages = () => (
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Monthly</button>
                             <button type="button" className="badge badge-light border-0 btn-block m-0 p-2">Yearly</button>
                         </div>
-                        <a href="#" className="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
+                        <a href="###" className="btn btn-dark btn-block p-3 font-weight-bold mt-3">Check Price</a>
                     </div>
                 </div>
             </div>
