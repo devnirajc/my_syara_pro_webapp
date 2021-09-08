@@ -383,7 +383,7 @@ a:hover {
 }
 
 .sec_padding {
-  padding: 30px 0px;
+  padding: 30px 0px 0px 0px;
 }
 
 /*Second Section Css Start*/
@@ -3323,4 +3323,16 @@ ul li.check-icon{
   padding: 15px 0px;
 }
 
+.plan-group-container{
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 5px #2426721c;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.plan-group{
+  background-image: url('../img/MaskGroup15.png');
+  width: 274px;
+  height: 122px;
+}
 
