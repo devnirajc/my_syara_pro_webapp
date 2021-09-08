@@ -1,21 +1,16 @@
 import React from 'react'
 import CheckImg from './../assets/img/awesome-check-circle.png';
 import CrossImg from './../assets/img/cross.png';
-import PlanGroup from './../assets/img/MaskGroup15.png';
 
 const PackagesDetails = () => (
     <div class="container-fluid sec_padding five service_sec">
             <div class="container">
             <div class="row m-80 mb-20">
-            {/* <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInLeft">
-                Tabs
-            </div> */}
             </div>
                <div class="row m-80 mb-20">
                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInLeft">
                      <div class="plan-group-container">
                         <div class="plan-group">
-                        {/* <img src={PlanGroup}  /> */}
                           <div class="plan-price">
                           <h6 class="px-4 pt-4">Basic Plan</h6>
                           <h1 class="px-4">AED 200</h1>
